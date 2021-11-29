@@ -3,3 +3,82 @@
 body{
     font-family: 'Red Hat Display', sans-serif;
 }
+
+.card{
+    width: 240px;
+    /* border: 2px solid black; */
+    border-radius: 10px;
+    margin: 18vh auto;
+}
+
+.image img{
+    width: 100%;
+    border-radius: 15px 15px 0 0;
+}
+
+.section{
+    margin: 15px;
+}
+
+.title{
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.subTitle{
+    text-align: center;
+    font-size: 10px;
+    margin-bottom: 12px;
+    color: hsl(224, 23%, 55%);
+}
+
+.plan-card{
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 10px;
+    padding: 10px ;
+    background-color: hsl(225, 100%, 98%);
+    margin-bottom: 15px;
+}
+
+.music-icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.planType{
+    font-weight: 700;
+}
+
+.price{
+    color: hsl(224, 23%, 55%);
+
+}
+
+.Change{
+    margin-left: 40px;
+}
+
+.proccedBtn{
+    width: 100%;
+    padding: 8px 0px ;
+    font-size: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.cancelBtn{
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px 0px ;
+    font-size: 10px;
+    border: none;
+    background-color: white;
+    color: hsl(224, 23%, 55%);
+
+}
